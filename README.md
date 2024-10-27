@@ -41,7 +41,6 @@ Below is a summary of each sheet, detailing the configurations used and the insi
 ### Sheet 7: Collision Mapping by Location and Year
 - **Columns**: Average Longitude
 - **Rows**: Average Latitude
-- **Marks**: Color - Collision ID, Detail - Year (Crash Year)
 - **Purpose**: Plots collisions on a map by location and year, allowing for a visual analysis of collision patterns across different locations and years.
 
 ### Sheet 8: Average Impact on Pedestrians by Borough
@@ -52,13 +51,11 @@ Below is a summary of each sheet, detailing the configurations used and the insi
 ### Sheet 9: Street-Level Analysis of Injuries and Fatalities
 - **Columns**: On Street Name
 - **Rows**: Sum of Killed Persons, Sum of Injured Persons
-- **Marks**: Year of Crash
 - **Purpose**: Analyzes street-level data for injuries and fatalities, helping to identify specific streets with high accident rates over different years.
 
 ### Sheet 10: Yearly Total of Injuries and Fatalities by Vehicle Type
 - **Columns**: Year (Crash Date)
 - **Rows**: Sum of Killed Persons, Sum of Injured Persons
-- **Marks**: Vehicle Type 1, Vehicle Type 2, Vehicle Type 3, Vehicle Type 4, Vehicle Type 5
 - **Purpose**: Shows the yearly trend of injuries and fatalities by vehicle type, providing insight into vehicle-related accident trends.
 
 ## Dashboards and Story
