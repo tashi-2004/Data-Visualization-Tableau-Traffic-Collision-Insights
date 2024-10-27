@@ -4,7 +4,8 @@ This repository contains an in-depth data analysis project using Tableau to expl
 
 ## Project Overview
 This project analyzes traffic collision data by focusing on injuries, fatalities, contributing factors, and geographic distributions. It uses Tableau’s interactive visualization capabilities to create a series of sheets, dashboards, and an overarching story for easy exploration and understanding of the data.
-
+## Dataset
+   - `tashi.csv`: [Download](https://mega.nz/file/bQtlQKDY#bj5GsCbgSy_0HZGGGJYy4yQRrvuZ6VxD5NHHxQctGU4)
 ## Sheets Overview
 Below is a summary of each sheet, detailing the configurations used and the insights provided:
 
