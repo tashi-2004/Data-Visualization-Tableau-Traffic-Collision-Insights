@@ -1,9 +1,5 @@
 # Data Visualization and Tableau Analysis Project
 
-This repository contains an in-depth data analysis project using Tableau to explore traffic collision data. The project includes 10 distinct sheets, each designed to highlight specific aspects of the dataset, along with dashboards and a story that bring these insights together.
-
-## Project Overview
-This project analyzes traffic collision data by focusing on injuries, fatalities, contributing factors, and geographic distributions. It uses Tableau’s interactive visualization capabilities to create a series of sheets, dashboards, and an overarching story for easy exploration and understanding of the data.
 
 ## Sheets Overview
 Below is a summary of each sheet, detailing the configurations used and the insights provided:
@@ -58,7 +54,7 @@ Below is a summary of each sheet, detailing the configurations used and the insi
 - **Rows**: Sum of Killed Persons, Sum of Injured Persons
 - **Purpose**: Shows the yearly trend of injuries and fatalities by vehicle type, providing insight into vehicle-related accident trends.
 
-## Dashboards and Story
+## Dashboards
 In addition to the sheets, this Tableau project includes:
 - **3 Dashboards**: Each dashboard consolidates insights from multiple sheets, allowing for interactive exploration of the data.
   
@@ -67,7 +63,6 @@ In addition to the sheets, this Tableau project includes:
 <img width="1259" alt="2" src="https://github.com/user-attachments/assets/a715b2bb-a055-41de-ab9d-2b51125bb903">
 
 <img width="1262" alt="3" src="https://github.com/user-attachments/assets/4d357766-27ad-455a-bc2f-e2d1fe6f0c2b">
-- **1 Story**: A multi-chapter narrative that provides a cohesive overview of the key findings from the data, focusing on safety trends, contributing factors, and high-risk locations.
 
 ## Key Insights and Recommendations
 Based on the analysis, the following insights and recommendations were made:
