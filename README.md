@@ -1,4 +1,4 @@
-# Data Visualization and Tableau Analysis Project
+# Data Visualization and Tableau Analysis
 
 This repository contains an in-depth data analysis project using Tableau to explore traffic collision data.
 
