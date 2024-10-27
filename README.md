@@ -56,7 +56,7 @@ Below is a summary of each sheet, detailing the configurations used and the insi
 
 ## Dashboards
 In addition to the sheets, this Tableau project includes:
-- **3 Dashboards**: Each dashboard consolidates insights from multiple sheets, allowing for interactive exploration of the data.
+- **Dashboards**: Each dashboard consolidates insights from multiple sheets, allowing for interactive exploration of the data.
   
 <img width="1263" alt="1" src="https://github.com/user-attachments/assets/c665458a-92b7-4107-834b-e7157866f858">
 
