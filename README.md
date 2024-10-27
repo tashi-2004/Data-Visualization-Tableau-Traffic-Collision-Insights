@@ -1,62 +1,88 @@
-# Data Visualization and Tableau Project
+# Data Visualization and Tableau Analysis Project
 
-This repository contains an interactive data visualization project focused on analyzing traffic collision data. Using Tableau, I have created an in-depth story to present key insights from the dataset, including multiple dashboards and sheets. Below is an overview of the dataset, columns, and the visualizations included in the Tableau workbook.
+This repository contains an in-depth data analysis project using Tableau to explore traffic collision data. The project includes 10 distinct sheets, each designed to highlight specific aspects of the dataset, along with dashboards and a story that bring these insights together.
 
-## Dataset Overview
-The dataset used in this project can be accessed here: [Traffic Collision Data](https://mega.nz/file/bQtlQKDY#bj5GsCbgSy_0HZGGGJYy4yQRrvuZ6VxD5NHHxQctGU4).
+## Project Overview
+This project analyzes traffic collision data by focusing on injuries, fatalities, contributing factors, and geographic distributions. It uses Tableau’s interactive visualization capabilities to create a series of sheets, dashboards, and an overarching story for easy exploration and understanding of the data.
 
-### Columns
-The dataset includes the following columns:
-- **CRASH_DATE**: Date of the crash (object)
-- **CRASH_TIME**: Time of the crash (object)
-- **BOROUGH**: Borough where the crash occurred (object)
-- **ZIP_CODE**: ZIP code of the crash location (object)
-- **LATITUDE**: Latitude of the crash location (float64)
-- **LONGITUDE**: Longitude of the crash location (float64)
-- **LOCATION**: Combined latitude and longitude (object)
-- **ON_STREET_NAME**: Street where the crash occurred (object)
-- **CROSS_STREET_NAME**: Cross street near the crash (object)
-- **OFF_STREET_NAME**: Off-street location of the crash (object)
-- **INJURED_PERSONS**: Number of people injured (float64)
-- **KILLED_PERSONS**: Number of people killed (float64)
-- **INJURED_PEDESTRIANS**: Number of pedestrians injured (float64)
-- **KILLED_PEDESTRIANS**: Number of pedestrians killed (float64)
-- **INJURED_CYCLISTS**: Number of cyclists injured (float64)
-- **KILLED_CYCLISTS**: Number of cyclists killed (float64)
-- **INJURED_MOTORISTS**: Number of motorists injured (float64)
-- **KILLED_MOTORISTS**: Number of motorists killed (float64)
-- **CONTRIBUTING_FACTOR_VEHICLE_1-5**: Contributing factors of up to five vehicles involved (object)
-- **COLLISION_ID**: Unique identifier for each collision (float64)
-- **VEHICLE_TYPE_1-5**: Types of up to five vehicles involved (object)
+## Sheets Overview
+Below is a summary of each sheet, detailing the configurations used and the insights provided:
 
-## Tableau Visualization Details
-To analyze and visualize this data, I have created the following in Tableau:
+### Sheet 1: Yearly Trend in Injuries and Fatalities
+- **Columns**: Year (Crash Date)
+- **Rows**: Count Distinct of Injured Persons, Count Distinct of Killed Persons
+- **Purpose**: Shows the yearly trend in traffic-related injuries and fatalities, providing insight into overall road safety trends over time.
 
-- **10 Sheets**: Each sheet presents specific aspects of the dataset, such as location, time, injuries, fatalities, and contributing factors.
-- **3 Dashboards**: These dashboards bring together multiple sheets, enabling interactive exploration of the data by location, contributing factors, and time.
-- **1 Story**: The story is a multi-chapter presentation that highlights key findings and insights from the data. Each chapter addresses a unique aspect of the dataset, such as patterns in crash timing, location hotspots, and factors contributing to crashes.
+### Sheet 2: Hourly Impact on Cyclist Safety
+- **Columns**: Hour (Crash Time)
+- **Rows**: Count of Injured Cyclists, Count of Killed Cyclists
+- **Purpose**: Analyzes the time of day in relation to cyclist injuries and fatalities, highlighting peak accident times.
+
+### Sheet 3: Yearly Trend for Motorcyclist Injuries and Fatalities
+- **Columns**: Year (Crash Date)
+- **Rows**: Count of Injured Motorcyclists, Count of Killed Motorcyclists
+- **Purpose**: Illustrates trends in motorcyclist injuries and fatalities over the years, providing insights into motorcyclist safety trends.
+
+### Sheet 4: Pedestrian Safety by Year
+- **Columns**: Year (Crash Time)
+- **Rows**: Count of Injured Pedestrians, Count of Killed Pedestrians
+- **Purpose**: Highlights yearly trends in pedestrian injuries and fatalities, emphasizing pedestrian safety and potential high-risk periods.
+
+### Sheet 5: Impact of Contributing Factors on Pedestrian Safety
+- **Columns**: Contributing Factor Vehicle 1
+- **Rows**: Average of Injured Pedestrians, Average of Killed Pedestrians
+- **Purpose**: Analyzes how various contributing factors impact pedestrian safety, providing insight into potential causes of accidents involving pedestrians.
+
+### Sheet 6: Geographic Distribution of Injuries and Fatalities by Zip Code
+- **Columns**: Zip Code
+- **Rows**: Count Distinct of Injured Persons, Count Distinct of Killed Persons
+- **Purpose**: Examines the geographic distribution of injuries and fatalities across different ZIP codes, identifying high-risk areas.
+
+### Sheet 7: Collision Mapping by Location and Year
+- **Columns**: Average Longitude
+- **Rows**: Average Latitude
+- **Marks**: Color - Collision ID, Detail - Year (Crash Year)
+- **Purpose**: Plots collisions on a map by location and year, allowing for a visual analysis of collision patterns across different locations and years.
+
+### Sheet 8: Average Impact on Pedestrians by Borough
+- **Columns**: Borough
+- **Rows**: Average of Injured Pedestrians, Average of Killed Pedestrians
+- **Purpose**: Provides a borough-based analysis of pedestrian injuries and fatalities, highlighting areas with the highest impact on pedestrian safety.
+
+### Sheet 9: Street-Level Analysis of Injuries and Fatalities
+- **Columns**: On Street Name
+- **Rows**: Sum of Killed Persons, Sum of Injured Persons
+- **Marks**: Year of Crash
+- **Purpose**: Analyzes street-level data for injuries and fatalities, helping to identify specific streets with high accident rates over different years.
+
+### Sheet 10: Yearly Total of Injuries and Fatalities by Vehicle Type
+- **Columns**: Year (Crash Date)
+- **Rows**: Sum of Killed Persons, Sum of Injured Persons
+- **Marks**: Vehicle Type 1, Vehicle Type 2, Vehicle Type 3, Vehicle Type 4, Vehicle Type 5
+- **Purpose**: Shows the yearly trend of injuries and fatalities by vehicle type, providing insight into vehicle-related accident trends.
+
+## Dashboards and Story
+In addition to the sheets, this Tableau project includes:
+- **3 Dashboards**: Each dashboard consolidates insights from multiple sheets, allowing for interactive exploration of the data.
+- **1 Story**: A multi-chapter narrative that provides a cohesive overview of the key findings from the data, focusing on safety trends, contributing factors, and high-risk locations.
 
 ## Key Insights and Recommendations
-Based on the analysis in Tableau, the following insights and recommendations were identified:
+Based on the analysis, the following insights and recommendations were made:
+1. **Trends in Injuries and Fatalities**: Observed fluctuations in injuries and fatalities over the years.
+2. **Time of Day Impact**: Certain times of day show higher accident rates.
+3. **Vulnerable Road Users**: Cyclists and pedestrians are particularly vulnerable.
+4. **Geographical Patterns**: High-risk ZIP code areas identified.
+5. **Contributing Factors**: Patterns in contributing factors for injuries and fatalities.
 
-### Key Insights
-1. **Trends in Injuries and Fatalities**: There are variations over the years in the number of injuries and fatalities, reflecting changes in road safety and traffic regulation effectiveness.
-2. **Time of Day Impact**: Certain hours show notably higher injury and fatality rates, especially affecting cyclists and pedestrians, indicating peak accident times.
-3. **Vulnerable Road Users**: Cyclists and pedestrians account for a significant portion of injuries and fatalities, underscoring their vulnerability on the road.
-4. **Contributing Factors**: Patterns in contributing factors reveal associations with more severe incidents, particularly involving certain vehicle types.
-5. **Geographical Patterns**: Injury and fatality counts differ across zip codes, suggesting some areas face higher risks, potentially due to traffic density or road conditions.
-
-### Recommendations
-1. **Targeted Awareness Campaigns**: Launch public safety campaigns focused on times and locations with high accident rates, targeting all road users with safety practices.
-2. **Infrastructure Improvements**: Improve safety infrastructure in high-risk areas, such as adding signage, bike lanes, and pedestrian crossings to protect vulnerable users.
-3. **Policy Revisions for Vehicle Safety**: Revise safety standards for vehicle types that contribute to high injury and fatality rates, possibly restricting certain models in urban zones.
-4. **Data-Driven Enforcement**: Leverage contributing factor data to better enforce regulations during peak accident times, targeting behaviors like speeding and distracted driving.
-5. **Collaboration with Local Agencies**: Partner with transportation and safety agencies for tailored initiatives that address specific safety needs in each borough or zip code.
+**Recommendations** include awareness campaigns, infrastructure improvements, policy revisions for vehicle safety, data-driven enforcement, and collaboration with local agencies.
 
 ## Files
-- `Tableau_Workbook.twbx`: The Tableau workbook containing all sheets, dashboards, and story.
-- `Report.pdf`: A brief report summarizing the analysis, key insights, and recommendations.
+- `Tableau_Workbook.twbx`: Contains all sheets, dashboards, and story.
+- `Report.pdf`: Summarizes the analysis, insights, and recommendations.
+
+## Workflows
+This repository includes a GitHub Actions workflow to validate HTML files on every push or pull request to the main branch, using the W3C HTML Validator for syntax correctness.
 
 ---
 
-This project leverages Tableau's interactivity and data visualization capabilities to uncover meaningful insights and facilitate data-driven decision-making.
+This project leverages Tableau’s visualization capabilities to facilitate data-driven insights and support decision-making regarding traffic safety.
