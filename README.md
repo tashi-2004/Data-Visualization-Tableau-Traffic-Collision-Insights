@@ -4,40 +4,45 @@ This repository contains an in-depth data analysis project using Tableau to expl
 
 ## Project Overview
 This project analyzes traffic collision data by focusing on injuries, fatalities, contributing factors, and geographic distributions. It uses Tableau’s interactive visualization capabilities to create a series of sheets, dashboards, and an overarching story for easy exploration and understanding of the data.
+
 ## Dataset
 
 - `tashi.csv`: [Download](https://mega.nz/file/bQtlQKDY#bj5GsCbgSy_0HZGGGJYy4yQRrvuZ6VxD5NHHxQctGU4)
 
   **Columns in `tashi.csv`:**
-  - **CRASH_DATE**: The date of the traffic collision (object).
-  - **CRASH_TIME**: The time of the traffic collision (object).
-  - **BOROUGH**: The borough where the collision occurred (object).
-  - **ZIP_CODE**: The ZIP code of the collision location (object).
-  - **LATITUDE**: The latitude of the collision location (float64).
-  - **LONGITUDE**: The longitude of the collision location (float64).
-  - **LOCATION**: The specific location of the collision (object).
-  - **ON_STREET_NAME**: The street name where the collision happened (object).
-  - **CROSS_STREET_NAME**: The name of the cross street (object).
-  - **OFF_STREET_NAME**: The name of the off street (object).
-  - **INJURED_PERSONS**: The number of people injured in the collision (float64).
-  - **KILLED_PERSONS**: The number of fatalities resulting from the collision (float64).
-  - **INJURED_PEDESTRIANS**: The number of injured pedestrians (float64).
-  - **KILLED_PEDESTRIANS**: The number of pedestrian fatalities (float64).
-  - **INJURED_CYCLISTS**: The number of injured cyclists (float64).
-  - **KILLED_CYCLISTS**: The number of cyclist fatalities (float64).
-  - **INJURED_MOTORISTS**: The number of injured motorists (float64).
-  - **KILLED_MOTORISTS**: The number of motorist fatalities (float64).
-  - **CONTRIBUTING_FACTOR_VEHICLE_1**: The primary contributing factor identified for Vehicle 1 (object).
-  - **CONTRIBUTING_FACTOR_VEHICLE_2**: The contributing factor identified for Vehicle 2 (object).
-  - **CONTRIBUTING_FACTOR_VEHICLE_3**: The contributing factor identified for Vehicle 3 (object).
-  - **CONTRIBUTING_FACTOR_VEHICLE_4**: The contributing factor identified for Vehicle 4 (object).
-  - **CONTRIBUTING_FACTOR_VEHICLE_5**: The contributing factor identified for Vehicle 5 (object).
-  - **COLLISION_ID**: Unique identifier for the collision (float64).
-  - **VEHICLE_TYPE_1**: The type of Vehicle 1 involved in the collision (object).
-  - **VEHICLE_TYPE_2**: The type of Vehicle 2 involved in the collision (object).
-  - **VEHICLE_TYPE_3**: The type of Vehicle 3 involved in the collision (object).
-  - **VEHICLE_TYPE_4**: The type of Vehicle 4 involved in the collision (object).
-  - **VEHICLE_TYPE_5**: The type of Vehicle 5 involved in the collision (object).
+
+| Column Name                        | Description                                                 | Type       |
+|------------------------------------|-------------------------------------------------------------|------------|
+| **CRASH_DATE**                     | The date of the traffic collision                           | Object     |
+| **CRASH_TIME**                     | The time of the traffic collision                           | Object     |
+| **BOROUGH**                        | The borough where the collision occurred                    | Object     |
+| **ZIP_CODE**                       | The ZIP code of the collision location                      | Object     |
+| **LATITUDE**                       | The latitude of the collision location                      | Float64    |
+| **LONGITUDE**                      | The longitude of the collision location                     | Float64    |
+| **LOCATION**                       | The specific location of the collision                      | Object     |
+| **ON_STREET_NAME**                 | The street name where the collision happened                | Object     |
+| **CROSS_STREET_NAME**              | The name of the cross street                                | Object     |
+| **OFF_STREET_NAME**                | The name of the off street                                  | Object     |
+| **INJURED_PERSONS**                | The number of people injured in the collision               | Float64    |
+| **KILLED_PERSONS**                 | The number of fatalities resulting from the collision       | Float64    |
+| **INJURED_PEDESTRIANS**           | The number of injured pedestrians                            | Float64    |
+| **KILLED_PEDESTRIANS**            | The number of pedestrian fatalities                          | Float64    |
+| **INJURED_CYCLISTS**              | The number of injured cyclists                               | Float64    |
+| **KILLED_CYCLISTS**               | The number of cyclist fatalities                             | Float64    |
+| **INJURED_MOTORISTS**             | The number of injured motorists                              | Float64    |
+| **KILLED_MOTORISTS**              | The number of motorist fatalities                           | Float64    |
+| **CONTRIBUTING_FACTOR_VEHICLE_1** | The primary contributing factor identified for Vehicle 1    | Object     |
+| **CONTRIBUTING_FACTOR_VEHICLE_2** | The contributing factor identified for Vehicle 2            | Object     |
+| **CONTRIBUTING_FACTOR_VEHICLE_3** | The contributing factor identified for Vehicle 3            | Object     |
+| **CONTRIBUTING_FACTOR_VEHICLE_4** | The contributing factor identified for Vehicle 4            | Object     |
+| **CONTRIBUTING_FACTOR_VEHICLE_5** | The contributing factor identified for Vehicle 5            | Object     |
+| **COLLISION_ID**                   | Unique identifier for the collision                         | Float64    |
+| **VEHICLE_TYPE_1**                 | The type of Vehicle 1 involved in the collision             | Object     |
+| **VEHICLE_TYPE_2**                 | The type of Vehicle 2 involved in the collision             | Object     |
+| **VEHICLE_TYPE_3**                 | The type of Vehicle 3 involved in the collision             | Object     |
+| **VEHICLE_TYPE_4**                 | The type of Vehicle 4 involved in the collision             | Object     |
+| **VEHICLE_TYPE_5**                 | The type of Vehicle 5 involved in the collision             | Object     |
+
 
 ## Sheets Overview
 Below is a summary of each sheet, detailing the configurations used and the insights provided:
