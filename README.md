@@ -1,5 +1,9 @@
 # Data Visualization and Tableau Analysis Project
 
+This repository contains an in-depth data analysis project using Tableau to explore traffic collision data.
+
+## Project Overview
+This project analyzes traffic collision data by focusing on injuries, fatalities, contributing factors, and geographic distributions. It uses Tableau’s interactive visualization capabilities to create a series of sheets, dashboards, and an overarching story for easy exploration and understanding of the data.
 
 ## Sheets Overview
 Below is a summary of each sheet, detailing the configurations used and the insights provided:
