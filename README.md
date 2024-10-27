@@ -8,6 +8,7 @@ This project analyzes traffic collision data by focusing on injuries, fatalities
 ## Dataset
 
 - `tashi.csv`: [Download](https://mega.nz/file/bQtlQKDY#bj5GsCbgSy_0HZGGGJYy4yQRrvuZ6VxD5NHHxQctGU4)
+  
 
 | Column Name                        | Description                                                 | Type       |
 |------------------------------------|-------------------------------------------------------------|------------|
