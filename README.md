@@ -61,6 +61,12 @@ Below is a summary of each sheet, detailing the configurations used and the insi
 ## Dashboards and Story
 In addition to the sheets, this Tableau project includes:
 - **3 Dashboards**: Each dashboard consolidates insights from multiple sheets, allowing for interactive exploration of the data.
+  
+<img width="1263" alt="1" src="https://github.com/user-attachments/assets/c665458a-92b7-4107-834b-e7157866f858">
+
+<img width="1259" alt="2" src="https://github.com/user-attachments/assets/a715b2bb-a055-41de-ab9d-2b51125bb903">
+
+<img width="1262" alt="3" src="https://github.com/user-attachments/assets/4d357766-27ad-455a-bc2f-e2d1fe6f0c2b">
 - **1 Story**: A multi-chapter narrative that provides a cohesive overview of the key findings from the data, focusing on safety trends, contributing factors, and high-risk locations.
 
 ## Key Insights and Recommendations
