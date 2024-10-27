@@ -85,9 +85,4 @@ Based on the analysis, the following insights and recommendations were made:
 - `Book1.twb`: Contains all sheets, dashboards, and story.
 - `Report.pdf`: Summarizes the analysis, insights, and recommendations.
 
-## Workflows
-This repository includes a GitHub Actions workflow to validate HTML files on every push or pull request to the main branch, using the W3C HTML Validator for syntax correctness.
 
----
-
-This project leverages Tableau’s visualization capabilities to facilitate data-driven insights and support decision-making regarding traffic safety.
