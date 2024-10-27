@@ -9,8 +9,6 @@ This project analyzes traffic collision data by focusing on injuries, fatalities
 
 - `tashi.csv`: [Download](https://mega.nz/file/bQtlQKDY#bj5GsCbgSy_0HZGGGJYy4yQRrvuZ6VxD5NHHxQctGU4)
 
-  **Columns in `tashi.csv`:**
-
 | Column Name                        | Description                                                 | Type       |
 |------------------------------------|-------------------------------------------------------------|------------|
 | **CRASH_DATE**                     | The date of the traffic collision                           | Object     |
