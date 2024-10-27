@@ -1,0 +1,22 @@
+name: HTML Validation
+
+on:
+  push:
+    branches:
+      - main  # Change this to your default branch name if it's different
+  pull_request:
+    branches:
+      - main  # Change this to your default branch name if it's different
+
+jobs:
+  validate-html:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Validate HTML
+        run: |
+          sudo apt-get install -y tidy
+          tidy -errors -q tashi.html
